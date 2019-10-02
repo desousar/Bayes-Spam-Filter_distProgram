@@ -3,7 +3,7 @@ package com.company;
 import java.io.*;
 import java.util.*;
 
-public class spamAnlern {
+public class SpamAnlern {
 
     private HashMap<String, Integer> tableFinal = new HashMap<>(); //List von alle Wörter von alle Mail max: 2551-126 =2425
 
@@ -18,10 +18,11 @@ public class spamAnlern {
         String line;
 
         File repertoire = new File("Programmieraufgabe1/spam-anlern");
-        String liste[] = repertoire.list();
+        String[] liste = repertoire.list();
 
+        assert liste != null;
         for (String s : liste) {
-            System.out.println("une liste :" + s);
+            //System.out.println("une liste :" + s);
 
             try {
                 BufferedReader in = new BufferedReader(new FileReader("Programmieraufgabe1/spam-anlern/" + s));

@@ -3,7 +3,7 @@ package com.company;
 import java.io.*;
 import java.util.*;
 
-public class hamAnlern {
+public class HamAnlern {
 
     private HashMap<String, Integer> tableFinal = new HashMap<>(); //List von alle Wörter von alle Mail max: 2551-126 =2425
 
@@ -18,11 +18,12 @@ public class hamAnlern {
         String line;
 
         File repertoire = new File("Programmieraufgabe1/ham-anlern");
-        String liste[] = repertoire.list();
+        String[] liste = repertoire.list();
 
+        assert liste != null;
         for (String s : liste) {
             HashMap<String, Integer> tableEnCours = new HashMap<>();//List von jede einzelne Mail mit Wörter max :1
-            System.out.println("une liste :" + s);
+            //System.out.println("une liste :" + s);
 
 
             try {

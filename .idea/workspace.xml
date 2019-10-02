@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="95b37705-387b-41c3-9860-9a48dcb96562" name="Default Changelist" comment="">
+    <list default="true" id="95b37705-387b-41c3-9860-9a48dcb96562" name="Default Changelist" comment="création du set de lecture de la map">
+      <change afterPath="$PROJECT_DIR$/src/com/company/HamKallibrate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/SpamKallibrate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programmieraufgabe1/spam-anlern/00252.7e355e0c5fd1de609684544262435579" beforeDir="false" afterPath="$PROJECT_DIR$/Programmieraufgabe1/spam-anlern/00252.7e355e0c5fd1de609684544262435579" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programmieraufgabe1/spam-anlern/00253.83b95b05e275286eddcf557ea581e754" beforeDir="false" afterPath="$PROJECT_DIR$/Programmieraufgabe1/spam-anlern/00253.83b95b05e275286eddcf557ea581e754" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programmieraufgabe1/spam-anlern/00254.e3e30f2b37ef8db36aa652bb3e563b61" beforeDir="false" afterPath="$PROJECT_DIR$/Programmieraufgabe1/spam-anlern/00254.e3e30f2b37ef8db36aa652bb3e563b61" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/distProgrammierAufgabe1/com/company/hamAnlern.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/distProgrammierAufgabe1/com/company/hamAnlern.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/distProgrammierAufgabe1/com/company/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/distProgrammierAufgabe1/com/company/main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/distProgrammierAufgabe1/com/company/spamAnlern.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/distProgrammierAufgabe1/com/company/spamAnlern.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/hamAnlern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/hamAnlern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/hamAnlern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/HamAnlern.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/spamAnlern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/spamAnlern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/spamAnlern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/SpamAnlern.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +37,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -85,6 +85,7 @@
       <workItem from="1570022323893" duration="761000" />
       <workItem from="1570024589126" duration="9500000" />
       <workItem from="1570023828447" duration="1882000" />
+      <workItem from="1570047359556" duration="3696000" />
     </task>
     <task id="LOCAL-00001" summary="création du set de lecture de la map">
       <created>1570025473185</created>
@@ -111,7 +112,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

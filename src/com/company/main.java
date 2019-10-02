@@ -8,7 +8,7 @@ public class main {
     public static void main(String[] args) throws IOException {
 
 
-        hamAnlern h = new hamAnlern();
+        HamAnlern h = new HamAnlern();
         h.anlern();
         /*String ligne;
         BufferedReader in = new BufferedReader(new FileReader("Programmieraufgabe1/ham-kallibrierung/0001.ea7e79d3153e7469e7a9c3e0af6a357e"));
@@ -21,9 +21,12 @@ public class main {
 
         }
 
-        spamAnlern s = new spamAnlern();
+        SpamAnlern s = new SpamAnlern();
         s.anlern();
-
+        HamKallibrate hk = new HamKallibrate();
+        System.out.println(hk.kallibrateMailToSet("0001.ea7e79d3153e7469e7a9c3e0af6a357e"));
+        SpamKallibrate sk = new SpamKallibrate();
+        System.out.println(sk.kallibrateMailToSet("00040.949a3d300eadb91d8745f1c1dab51133"));
 
     }
 }
