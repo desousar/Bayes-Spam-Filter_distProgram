@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="95b37705-387b-41c3-9860-9a48dcb96562" name="Default Changelist" comment="obtention liste pour ham-anlern et spam-anlern">
+    <list default="true" id="95b37705-387b-41c3-9860-9a48dcb96562" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +73,7 @@
       <updated>1569859255660</updated>
       <workItem from="1569859259627" duration="9858000" />
       <workItem from="1570022323893" duration="761000" />
-      <workItem from="1570023828447" duration="1304000" />
+      <workItem from="1570023828447" duration="1882000" />
     </task>
     <task id="LOCAL-00001" summary="obtention liste pour ham-anlern et spam-anlern">
       <created>1570024423220</created>
@@ -83,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570024423220</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="obtention liste pour ham-anlern et spam-anlern&#10;(test 2)">
+      <created>1570025212472</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1570025212472</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,6 +98,30 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="range">
+                    <value>
+                      <list>
+                        <option value="HEAD..origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State />
@@ -102,6 +132,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="obtention liste pour ham-anlern et spam-anlern" />
-    <option name="LAST_COMMIT_MESSAGE" value="obtention liste pour ham-anlern et spam-anlern" />
+    <MESSAGE value="obtention liste pour ham-anlern et spam-anlern&#10;(test 2)" />
+    <option name="LAST_COMMIT_MESSAGE" value="obtention liste pour ham-anlern et spam-anlern&#10;(test 2)" />
   </component>
 </project>
