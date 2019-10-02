@@ -1,10 +1,7 @@
 package com.company;
 
 import java.io.*;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Set;
-import java.util.StringTokenizer;
+import java.util.*;
 
 public class main {
 
@@ -66,6 +63,8 @@ public class main {
 
         hamAnlern h = new hamAnlern();
         h.anlern();
+        Set<Map.Entry<String , Integer>> setMap = h.getTableFinal().entrySet();
+
 
 
     }
