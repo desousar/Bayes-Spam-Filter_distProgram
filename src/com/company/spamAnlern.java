@@ -1,9 +1,12 @@
 package com.company;
 
 import java.io.*;
-import java.util.*;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Set;
+import java.util.StringTokenizer;
 
-public class hamAnlern {
+public class spamAnlern {
 
     private HashMap<String, Integer> tableFinal = new HashMap<>(); //List von alle Wörter von alle Mail max: 2551-126 =2425
 
@@ -17,14 +20,14 @@ public class hamAnlern {
         HashMap<String, Integer> tableEnCours = new HashMap<>(); //List von jede einzelne Mail mit Wörter max :1
         String line;
 
-        File repertoire = new File("Programmieraufgabe1/ham-anlern");
+        File repertoire = new File("Programmieraufgabe1/spam-anlern");
         String liste[] = repertoire.list();
 
         for (String s : liste) {
             System.out.println("une liste :" + s);
 
             try {
-                BufferedReader in = new BufferedReader(new FileReader("Programmieraufgabe1/ham-anlern/" + s));
+                BufferedReader in = new BufferedReader(new FileReader("Programmieraufgabe1/spam-anlern/" + s));
 
                 while ((line = in.readLine()) != null) {
                     line = line.toLowerCase();
@@ -58,7 +61,7 @@ public class hamAnlern {
             }
         }
 
-        BufferedWriter visualisation = new BufferedWriter(new FileWriter("ham-anlern.txt"));
+        BufferedWriter visualisation = new BufferedWriter(new FileWriter("spam-anlern.txt"));
         Set listkeys = tableFinal.keySet();
         Iterator it = listkeys.iterator();
         String str = " ";

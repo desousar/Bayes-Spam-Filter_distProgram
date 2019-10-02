@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="95b37705-387b-41c3-9860-9a48dcb96562" name="Default Changelist" comment="" />
+    <list default="true" id="95b37705-387b-41c3-9860-9a48dcb96562" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/spamAnlern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/distProgrammierAufgabe1/META-INF/distProgrammierAufgabe1.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/distProgrammierAufgabe1/com/company/hamAnlern.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/distProgrammierAufgabe1/com/company/hamAnlern.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/distProgrammierAufgabe1/com/company/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/distProgrammierAufgabe1/com/company/main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/hamAnlern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/hamAnlern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +25,12 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1RZ0LYZgHVM7jUCoCTzekZtBE0Z" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -67,10 +81,22 @@
       <updated>1569859255660</updated>
       <workItem from="1569859259627" duration="9858000" />
       <workItem from="1570022323893" duration="761000" />
+      <workItem from="1570023828447" duration="541000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
