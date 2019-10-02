@@ -3,6 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="95b37705-387b-41c3-9860-9a48dcb96562" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programmieraufgabe1/spam-anlern/00252.7e355e0c5fd1de609684544262435579" beforeDir="false" afterPath="$PROJECT_DIR$/Programmieraufgabe1/spam-anlern/00252.7e355e0c5fd1de609684544262435579" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programmieraufgabe1/spam-anlern/00253.83b95b05e275286eddcf557ea581e754" beforeDir="false" afterPath="$PROJECT_DIR$/Programmieraufgabe1/spam-anlern/00253.83b95b05e275286eddcf557ea581e754" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programmieraufgabe1/spam-anlern/00254.e3e30f2b37ef8db36aa652bb3e563b61" beforeDir="false" afterPath="$PROJECT_DIR$/Programmieraufgabe1/spam-anlern/00254.e3e30f2b37ef8db36aa652bb3e563b61" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/distProgrammierAufgabe1/com/company/hamAnlern.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/distProgrammierAufgabe1/com/company/hamAnlern.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/distProgrammierAufgabe1/com/company/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/distProgrammierAufgabe1/com/company/main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/distProgrammierAufgabe1/com/company/spamAnlern.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/distProgrammierAufgabe1/com/company/spamAnlern.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/hamAnlern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/hamAnlern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/spamAnlern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/spamAnlern.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,9 +25,6 @@
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -77,22 +83,8 @@
       <updated>1569859255660</updated>
       <workItem from="1569859259627" duration="9858000" />
       <workItem from="1570022323893" duration="761000" />
+      <workItem from="1570024589126" duration="9500000" />
       <workItem from="1570023828447" duration="1882000" />
-    </task>
-    <task id="LOCAL-00001" summary="obtention liste pour ham-anlern et spam-anlern">
-      <created>1570024423220</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1570024423220</updated>
-    </task>
-    <task id="LOCAL-00002" summary="obtention liste pour ham-anlern et spam-anlern&#10;(test 2)">
-      <created>1570025212472</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1570025212472</updated>
-      <workItem from="1570024589126" duration="1078000" />
     </task>
     <task id="LOCAL-00001" summary="création du set de lecture de la map">
       <created>1570025473185</created>
@@ -101,52 +93,18 @@
       <option name="project" value="LOCAL" />
       <updated>1570025473185</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="création du set de lecture de la map">
+      <created>1570025677377</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1570025677377</updated>
+    </task>
     <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="1">
-          <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="range">
-                    <value>
-                      <list>
-                        <option value="HEAD..origin/master" />
-                      </list>
-                    </value>
-                  </entry>
-                  <entry key="roots">
-                    <value>
-                      <list>
-                        <option value="$PROJECT_DIR$" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="obtention liste pour ham-anlern et spam-anlern" />
-    <MESSAGE value="obtention liste pour ham-anlern et spam-anlern&#10;(test 2)" />
-    <option name="LAST_COMMIT_MESSAGE" value="obtention liste pour ham-anlern et spam-anlern&#10;(test 2)" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

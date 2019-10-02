@@ -1,10 +1,7 @@
 package com.company;
 
 import java.io.*;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Set;
-import java.util.StringTokenizer;
+import java.util.*;
 
 public class spamAnlern {
 
@@ -42,17 +39,18 @@ public class spamAnlern {
                 }
                 in.close();
 
-                Set listkeys = tableFinal.keySet();
-                Iterator it = listkeys.iterator();
-                String str = " ";
-                while (it.hasNext()){
-                    Object key = it.next();
-                    if (tableFinal.containsKey(key)){
-                        tableFinal.put((String) key, tableFinal.get(key)+1);
+                Set<Map.Entry<String,Integer>> setMap = tableEnCours.entrySet();
+
+                for (Iterator<Map.Entry<String, Integer>> it = setMap.iterator(); it.hasNext();){
+                    Map.Entry<String,Integer> map =it.next();
+                    if(tableFinal.containsKey(map.getKey())) {
+                        tableFinal.put(map.getKey(), tableFinal.get(map.getKey()) + 1);
+                    }
+                    else{
+                        tableFinal.put(map.getKey(),1);
                     }
                 }
 
-                tableFinal.putAll(tableEnCours);
                 tableEnCours.clear();
 
             } catch (Exception e) {
