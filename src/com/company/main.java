@@ -1,10 +1,6 @@
 package com.company;
 
 import java.io.*;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Set;
-import java.util.StringTokenizer;
 
 public class main {
 
