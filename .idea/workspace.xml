@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="95b37705-387b-41c3-9860-9a48dcb96562" name="Default Changelist" comment="création du set de lecture de la map">
-      <change afterPath="$PROJECT_DIR$/src/com/company/HamKallibrate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/SpamKallibrate.java" afterDir="false" />
+    <list default="true" id="95b37705-387b-41c3-9860-9a48dcb96562" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/distProgrammierAufgabe1/com/company/hamAnlern.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/distProgrammierAufgabe1/com/company/hamAnlern.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/distProgrammierAufgabe1/com/company/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/distProgrammierAufgabe1/com/company/main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/distProgrammierAufgabe1/com/company/spamAnlern.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/distProgrammierAufgabe1/com/company/spamAnlern.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/hamAnlern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/HamAnlern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/HamAnlern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/HamAnlern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/HamKallibrate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/HamKallibrate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/SpamAnlern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/SpamAnlern.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/spamAnlern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/SpamAnlern.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

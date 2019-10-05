@@ -71,4 +71,14 @@ public class SpamAnlern {
         }
     }
 
+    public boolean containWord(String wordKallibrate) {
+        Set<Map.Entry<String , Integer>> setMap = tableFinal.entrySet();
+        for (Map.Entry<String, Integer> setSpam:setMap){
+            if (setSpam.getKey().equals(wordKallibrate)){
+                System.out.println("le mot "+ wordKallibrate+" est present dans les deux sous " + setSpam.getKey() + " et " + wordKallibrate);
+                return true;
+            }
+        }
+        return false;
+    }
 }
