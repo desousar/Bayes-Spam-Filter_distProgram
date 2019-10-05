@@ -64,5 +64,9 @@ public class main {
             System.out.println("c'est un spam ham: "+ countForHam +" contre spam: "+countForSpam);
         }
 
+        System.out.println(h.numberOfFileHamAnlern());
+        System.out.println(h.pourcentageForOneWordInHamAnlern(h,"frowning"));
+
+
     }
 }

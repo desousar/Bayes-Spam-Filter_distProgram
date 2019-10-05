@@ -1,11 +1,13 @@
 package com.company;
 
+import com.sun.security.auth.UnixNumericGroupPrincipal;
+
 import java.io.*;
 import java.util.*;
 
 public class HamAnlern {
 
-    private HashMap<String, Integer> tableFinal = new HashMap<>(); //List von alle Wörter von alle Mail max: 2551-126 =2425
+    private HashMap<String, Integer> tableFinal = new HashMap<>(); //List von alle Wörter von alle Mail
 
     public void anlern() throws IOException {
 
@@ -75,14 +77,32 @@ public class HamAnlern {
 
     //method to check if hamAnlern contains a word
     public boolean containWord(String wordKallibrate) {
-        Set<Map.Entry<String , Integer>> setMap = tableFinal.entrySet();
-        for (Map.Entry<String, Integer> setHam:setMap){
-            if (setHam.getKey().equals(wordKallibrate)){
-                System.out.println("le mot "+ wordKallibrate+" est present dans les deux sous " + setHam.getKey() + " et " + wordKallibrate);
+        Set<Map.Entry<String, Integer>> setMap = tableFinal.entrySet();
+        for (Map.Entry<String, Integer> setHam : setMap) {
+            if (setHam.getKey().equals(wordKallibrate)) {
+                System.out.println("le mot " + wordKallibrate + " est present dans les deux sous " + setHam.getKey() + " et " + wordKallibrate);
                 return true;
             }
         }
         return false;
+    }
+    public int numberOfFileHamAnlern(){
+        int number = 0;
+        File repertoire = new File("Programmieraufgabe1/ham-anlern");
+        String[] liste = repertoire.list();
+        number = liste.length;
+        return number;
+    }
+
+    public double pourcentageForOneWordInHamAnlern(HamAnlern h, String word) throws IOException {
+        int allFile =0;
+        allFile = h.numberOfFileHamAnlern(); //number of file
+        int numberForWord = 0;
+        numberForWord = h.getTableFinal(h).get(word); //value of map from hamAnlern
+        double result;
+        result = (double) numberForWord/allFile;
+        //System.out.println("the result is " + result);
+        return result;
     }
 
 }

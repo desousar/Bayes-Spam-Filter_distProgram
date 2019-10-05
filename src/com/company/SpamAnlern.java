@@ -81,4 +81,14 @@ public class SpamAnlern {
         }
         return false;
     }
+
+    public int numberOfFileSpamAnlern(){
+        int number = 0;
+        File repertoire = new File("Programmieraufgabe1/spam-anlern");
+        String[] liste = repertoire.list();
+        number = liste.length;
+        return number;
+    }
+
+
 }
