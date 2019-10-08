@@ -5,16 +5,16 @@ import java.util.*;
 
 public class SpamAnlern {
 
-    private HashMap<String, Integer> tableFinal = new HashMap<>(); //List von alle Wörter von alle Mail max: 2551-126 =2425
+    private HashMap<String, Double> tableFinal = new HashMap<>(); //List von alle Wörter von alle Mail max: 2551-126 =2425
 
-    public HashMap<String, Integer> getTableFinal(){
+    public HashMap<String, Double> getTableFinal() {
         return tableFinal;
     }
 
-    public void anlern() throws IOException {
+    public SpamAnlern() throws IOException {
 
 
-        HashMap<String, Integer> tableEnCours = new HashMap<>(); //List von jede einzelne Mail mit Wörter max :1
+        HashMap<String, Double> tableEnCours = new HashMap<>(); //List von jede einzelne Mail mit Wörter max :1
         String line;
 
         File repertoire = new File("Programmieraufgabe1/spam-anlern");
@@ -32,23 +32,21 @@ public class SpamAnlern {
                     StringTokenizer st = new StringTokenizer(line, " "); //split line
                     while (st.hasMoreTokens()) {
                         String str = st.nextToken();
-                        if (!tableEnCours.containsKey(str))
-                        {
-                            tableEnCours.put(str, 1);
+                        if (!tableEnCours.containsKey(str)) {
+                            tableEnCours.put(str, 1.0);
                         }
                     }
                 }
                 in.close();
 
-                Set<Map.Entry<String,Integer>> setMap = tableEnCours.entrySet();
+                Set<Map.Entry<String, Double>> setMap = tableEnCours.entrySet();
 
-                for (Iterator<Map.Entry<String, Integer>> it = setMap.iterator(); it.hasNext();){
-                    Map.Entry<String,Integer> map =it.next();
-                    if(tableFinal.containsKey(map.getKey())) {
+                for (Iterator<Map.Entry<String, Double>> it = setMap.iterator(); it.hasNext(); ) {
+                    Map.Entry<String, Double> map = it.next();
+                    if (tableFinal.containsKey(map.getKey())) {
                         tableFinal.put(map.getKey(), tableFinal.get(map.getKey()) + 1);
-                    }
-                    else{
-                        tableFinal.put(map.getKey(),1);
+                    } else {
+                        tableFinal.put(map.getKey(), 1.0);
                     }
                 }
 
@@ -60,35 +58,60 @@ public class SpamAnlern {
             }
         }
 
-        BufferedWriter visualisation = new BufferedWriter(new FileWriter("spam-anlern.txt"));
-        Set listkeys = tableFinal.keySet();
-        Iterator it = listkeys.iterator();
-        String str = " ";
-        while (it.hasNext()){
-            Object key = it.next();
-            str = key + " " + tableFinal.get(key) + "\n";
-            visualisation.write(str);
-        }
     }
 
     public boolean containWord(String wordKallibrate) {
-        Set<Map.Entry<String , Integer>> setMap = tableFinal.entrySet();
-        for (Map.Entry<String, Integer> setSpam:setMap){
-            if (setSpam.getKey().equals(wordKallibrate)){
-                System.out.println("le mot "+ wordKallibrate+" est present dans les deux sous " + setSpam.getKey() + " et " + wordKallibrate);
+        Set<Map.Entry<String, Double>> setMap = tableFinal.entrySet();
+        for (Map.Entry<String, Double> setSpam : setMap) {
+            if (setSpam.getKey().equals(wordKallibrate)) {
                 return true;
             }
         }
         return false;
     }
 
-    public int numberOfFileSpamAnlern(){
+    public int numberOfFileSpamAnlern() {
         int number = 0;
         File repertoire = new File("Programmieraufgabe1/spam-anlern");
         String[] liste = repertoire.list();
         number = liste.length;
         return number;
     }
+    /* sert uniquement au test :
+        < System.out.println("the ham-table " + h.getTableFinal(h)); //this is the correct map of all word from ham.anlern >
+        dans le main
+        */
 
+    public double pourcentageForOneWordInHamAnlern(HamAnlern h, String word) throws IOException {
+        int allFile = 0;
+        allFile = h.numberOfFileHamAnlern(); //number of file
+        double numberForWord = 0;
+        numberForWord = h.getTableFinal().get(word); //value of map from hamAnlern
+        double result;
+        result = (double) numberForWord / allFile;
+        //System.out.println("the result is " + result);
+        return result;
+    }
 
+    public void addWordNotInHamAnlern(HamAnlern h) throws IOException {
+        Set<Map.Entry<String, Double>> setMap = h.getTableFinal().entrySet();
+        for (Map.Entry<String, Double> e : setMap) {
+            if (!this.containWord(e.getKey())) {
+                tableFinal.put(e.getKey(), 0.01);
+            }
+        }
+
+        this.write();
+    }
+    public void write() throws IOException {
+        BufferedWriter visualisation = new BufferedWriter(new FileWriter("spam-anlern.txt"));
+        Set listkeys = tableFinal.keySet();
+        Iterator it = listkeys.iterator();
+        String str = " ";
+        while (it.hasNext()) {
+            Object key = it.next();
+            str = key + " " + tableFinal.get(key) + "\n";
+            visualisation.write(str);
+        }
+    }
 }

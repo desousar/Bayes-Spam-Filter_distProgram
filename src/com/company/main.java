@@ -9,31 +9,22 @@ public class main {
 
 
         HamAnlern h = new HamAnlern();
-        h.anlern();
-        /*String ligne;
-        BufferedReader in = new BufferedReader(new FileReader("Programmieraufgabe1/ham-kallibrierung/0001.ea7e79d3153e7469e7a9c3e0af6a357e"));
-
-        while ((ligne = in.readLine()) != null){
-
-        }*/
-  /*      Set<Map.Entry<String , Integer>> setMap = h.getTableFinal().entrySet();
-        for (Map.Entry<String, Integer> s:setMap){
-
-        }
-*/
+        System.out.println("Constructor Ham");
         SpamAnlern s = new SpamAnlern();
-        s.anlern();
+        System.out.println("Constructor Spam");
         HamKallibrate hk = new HamKallibrate();
+        h.addWordNotInSpamAnlern(s);
+        System.out.println("Add In Ham");
+        s.addWordNotInHamAnlern(h);
+        System.out.println("Add in spam");
         String kallibrateMail = "0001.ea7e79d3153e7469e7a9c3e0af6a357e";
-        //hk.kallibrateMailToSet(kallibrateMail); le paramètre ne permet pas d'écrire dans un doc txt le set
-        hk.kallibrateMailToSet("0001.ea7e79d3153e7469e7a9c3e0af6a357e");
-
+        hk.kallibrateMailToSet(kallibrateMail); //le paramètre ne permet pas d'écrire le set dans un doc txt
         /*   SpamKallibrate sk = new SpamKallibrate();
         System.out.println(sk.kallibrateMailToSet("00040.949a3d300eadb91d8745f1c1dab51133"));
 */
    //     System.out.println("the ham-table " + h.getTableFinal(h)); //this is the correct map of all word from ham.anlern
    //     System.out.println("the hk-table " + hk.getTableFinal(hk, kallibrateMail)); //this is the correct set of the ham kallibrate that we test
-
+/*
         //count how much word from hamKallibrate is also in hamAnlern
         int countForHam = 0;
             for (String wordKallibrate :hk.getTableFinal(hk,kallibrateMail)) {
@@ -63,9 +54,9 @@ public class main {
         }else {
             System.out.println("c'est un spam ham: "+ countForHam +" contre spam: "+countForSpam);
         }
-
-        System.out.println(h.numberOfFileHamAnlern());
-        System.out.println(h.pourcentageForOneWordInHamAnlern(h,"frowning"));
+*/
+        System.out.println(h.numberOfFileHamAnlern() ); //Count the number of file Ham Anlern
+        System.out.println(h.pourcentageForOneWordInHamAnlern("frowning")+" ");// Give the procent of the word frowning
 
 
     }

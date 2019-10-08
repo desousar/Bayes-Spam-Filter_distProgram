@@ -3,9 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="95b37705-387b-41c3-9860-9a48dcb96562" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/distProgrammierAufgabe1/com/company/hamAnlern.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/distProgrammierAufgabe1/com/company/hamAnlern.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programmieraufgabe1/ham-anlern/0126.d002ec3f8a9aff31258bf03d62abdafa" beforeDir="false" afterPath="$PROJECT_DIR$/Programmieraufgabe1/ham-anlern/0126.d002ec3f8a9aff31258bf03d62abdafa" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programmieraufgabe1/ham-anlern/0127.a26e8e698f479e0baf3d41c47ffcd33c" beforeDir="false" afterPath="$PROJECT_DIR$/Programmieraufgabe1/ham-anlern/0127.a26e8e698f479e0baf3d41c47ffcd33c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programmieraufgabe1/ham-anlern/0128.cec40637e142496b2603c0ee474d05e7" beforeDir="false" afterPath="$PROJECT_DIR$/Programmieraufgabe1/ham-anlern/0128.cec40637e142496b2603c0ee474d05e7" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programmieraufgabe1/ham-kallibrierung/0001.ea7e79d3153e7469e7a9c3e0af6a357e" beforeDir="false" afterPath="$PROJECT_DIR$/Programmieraufgabe1/ham-kallibrierung/0001.ea7e79d3153e7469e7a9c3e0af6a357e" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/distProgrammierAufgabe1/com/company/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/distProgrammierAufgabe1/com/company/main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/distProgrammierAufgabe1/com/company/spamAnlern.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/distProgrammierAufgabe1/com/company/spamAnlern.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/HamAnlern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/HamAnlern.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/SpamAnlern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/SpamAnlern.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/main.java" afterDir="false" />
@@ -83,7 +85,9 @@
       <workItem from="1570022323893" duration="761000" />
       <workItem from="1570024589126" duration="9500000" />
       <workItem from="1570023828447" duration="1882000" />
-      <workItem from="1570047359556" duration="3696000" />
+      <workItem from="1570047359556" duration="12878000" />
+      <workItem from="1570171813283" duration="143000" />
+      <workItem from="1570519484625" duration="8859000" />
     </task>
     <task id="LOCAL-00001" summary="création du set de lecture de la map">
       <created>1570025473185</created>
@@ -99,12 +103,12 @@
       <option name="project" value="LOCAL" />
       <updated>1570025677377</updated>
     </task>
-    <task id="LOCAL-00003" summary="test avec un mailKallibrate (qui est un set) : qui d'entre hamAnlern et spamAnlern contient le plus de mot de mailKallibrate">
-      <created>1570272871370</created>
+    <task id="LOCAL-00003" summary="création de la methode KallibrateMailToSet pour spam-ham-kallibrate.&#10;Avec creation des deux Objet dans le main et utilisation de la methode.">
+      <created>1570051570007</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1570272871370</updated>
+      <updated>1570051570007</updated>
     </task>
     <option name="localTasksCounter" value="4" />
     <servers />
@@ -128,6 +132,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="création du set de lecture de la map" />
     <MESSAGE value="test avec un mailKallibrate (qui est un set) : qui d'entre hamAnlern et spamAnlern contient le plus de mot de mailKallibrate" />
-    <option name="LAST_COMMIT_MESSAGE" value="test avec un mailKallibrate (qui est un set) : qui d'entre hamAnlern et spamAnlern contient le plus de mot de mailKallibrate" />
+    <MESSAGE value="création de la methode KallibrateMailToSet pour spam-ham-kallibrate.&#10;Avec creation des deux Objet dans le main et utilisation de la methode." />
+    <option name="LAST_COMMIT_MESSAGE" value="création de la methode KallibrateMailToSet pour spam-ham-kallibrate.&#10;Avec creation des deux Objet dans le main et utilisation de la methode." />
   </component>
 </project>
