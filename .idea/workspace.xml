@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95b37705-387b-41c3-9860-9a48dcb96562" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programmieraufgabe1/ham-anlern/0126.d002ec3f8a9aff31258bf03d62abdafa" beforeDir="false" afterPath="$PROJECT_DIR$/Programmieraufgabe1/ham-anlern/0126.d002ec3f8a9aff31258bf03d62abdafa" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programmieraufgabe1/ham-anlern/0127.a26e8e698f479e0baf3d41c47ffcd33c" beforeDir="false" afterPath="$PROJECT_DIR$/Programmieraufgabe1/ham-anlern/0127.a26e8e698f479e0baf3d41c47ffcd33c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programmieraufgabe1/ham-anlern/0128.cec40637e142496b2603c0ee474d05e7" beforeDir="false" afterPath="$PROJECT_DIR$/Programmieraufgabe1/ham-anlern/0128.cec40637e142496b2603c0ee474d05e7" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programmieraufgabe1/ham-kallibrierung/0001.ea7e79d3153e7469e7a9c3e0af6a357e" beforeDir="false" afterPath="$PROJECT_DIR$/Programmieraufgabe1/ham-kallibrierung/0001.ea7e79d3153e7469e7a9c3e0af6a357e" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/distProgrammierAufgabe1/com/company/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/distProgrammierAufgabe1/com/company/main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/HamAnlern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/HamAnlern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/SpamAnlern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/SpamAnlern.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
