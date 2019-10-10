@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95b37705-387b-41c3-9860-9a48dcb96562" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/distProgrammierAufgabe1/com/company/hamAnlern.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/distProgrammierAufgabe1/com/company/hamAnlern.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/distProgrammierAufgabe1/com/company/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/distProgrammierAufgabe1/com/company/main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/distProgrammierAufgabe1/com/company/spamAnlern.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/distProgrammierAufgabe1/com/company/spamAnlern.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/HamAnlern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/HamAnlern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/HamKallibrate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/HamKallibrate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/SpamAnlern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/SpamAnlern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/SpamKallibrate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/SpamKallibrate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -82,6 +88,7 @@
       <workItem from="1570047359556" duration="12878000" />
       <workItem from="1570171813283" duration="143000" />
       <workItem from="1570519484625" duration="8859000" />
+      <workItem from="1570699935423" duration="2714000" />
     </task>
     <task id="LOCAL-00001" summary="création du set de lecture de la map">
       <created>1570025473185</created>
@@ -104,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570051570007</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="hamAnlern est totalement commenté en anglais">
+      <created>1570530833010</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1570530833010</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +141,7 @@
     <MESSAGE value="création du set de lecture de la map" />
     <MESSAGE value="test avec un mailKallibrate (qui est un set) : qui d'entre hamAnlern et spamAnlern contient le plus de mot de mailKallibrate" />
     <MESSAGE value="création de la methode KallibrateMailToSet pour spam-ham-kallibrate.&#10;Avec creation des deux Objet dans le main et utilisation de la methode." />
-    <option name="LAST_COMMIT_MESSAGE" value="création de la methode KallibrateMailToSet pour spam-ham-kallibrate.&#10;Avec creation des deux Objet dans le main et utilisation de la methode." />
+    <MESSAGE value="hamAnlern est totalement commenté en anglais" />
+    <option name="LAST_COMMIT_MESSAGE" value="hamAnlern est totalement commenté en anglais" />
   </component>
 </project>

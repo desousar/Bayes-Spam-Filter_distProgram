@@ -1,11 +1,7 @@
 package com.company;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
-import java.util.HashSet;
-import java.util.Set;
-import java.util.StringTokenizer;
+import java.io.*;
+import java.util.*;
 
 public class SpamKallibrate {
     private Set<String> tableFinal = new HashSet<>();
@@ -27,11 +23,28 @@ public class SpamKallibrate {
             }
             in.close();
 
-
         } catch (Exception e) {
             System.out.println(e.getMessage());
             e.printStackTrace();
         }
+
+        //write into the ham-kallibrate.txt all the set
+        BufferedWriter visualisation = new BufferedWriter(new FileWriter("spam-kallibrate.txt"));
+        Iterator it = tableFinal.iterator();
+        String str = " ";
+        while(it.hasNext()) {
+            Object word = it.next();
+            str = (String) word;
+            visualisation.write(str);
+            visualisation.newLine();
+        }
+        visualisation.close();
+
+        return tableFinal;
+    }
+
+    public Set<String> getTableFinal(String kallibrateMail) throws IOException {
+        this.kallibrateMailToSet(kallibrateMail);
         return tableFinal;
     }
 }

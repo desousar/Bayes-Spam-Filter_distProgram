@@ -58,7 +58,7 @@ public class HamAnlern {
     }
 
     // return our map tableFinal
-    public HashMap<String, Double> getTableFinal() throws IOException {
+    public HashMap<String, Double> getTableFinal(){
         return tableFinal;
     }
 
@@ -95,13 +95,14 @@ public class HamAnlern {
 
     /*If spamAnlern contain a word that hamAnlern doesn't contain, we add it with a rate of apparition very small :
     it is for the mathematical formule*/
-    public void addWordNotInSpamAnlern(SpamAnlern s) throws IOException{
+    public void addWordFromSpamAnlernNotInHamAnlern(SpamAnlern s) throws IOException{
         Set<Map.Entry<String, Double>> setMap = s.getTableFinal().entrySet();
         for (Map.Entry<String, Double> e : setMap) {
             if (!this.containWord(e.getKey())) {
                 tableFinal.put(e.getKey(), 0.01);
             }
         }
+        this.write();
     }
 
     //write the map in a txt, so that we can verify what there is inside (word and rate od apparition)

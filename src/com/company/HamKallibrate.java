@@ -21,9 +21,7 @@ public class HamKallibrate {
 
                 }
             }
-            //System.out.println("the set : " + tableFinal); //print a correct set
             in.close();
-
 
         } catch (Exception e) {
             System.out.println(e.getMessage());
@@ -45,12 +43,8 @@ public class HamKallibrate {
         return tableFinal;
     }
 
-    /* sert uniquement au test :
-    < System.out.println("the hk-table " + hk.getTableFinal(hk, kallibrateMail)); //this is the correct set of the ham kallibrate that we test >
-    dans le main
-     */
-    public Set<String> getTableFinal(HamKallibrate hk, String kallibrateMail) throws IOException {
-        hk.kallibrateMailToSet(kallibrateMail);
+    public Set<String> getTableFinal(String kallibrateMail) throws IOException {
+        this.kallibrateMailToSet(kallibrateMail);
         return tableFinal;
     }
 }
