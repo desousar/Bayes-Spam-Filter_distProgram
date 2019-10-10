@@ -86,7 +86,7 @@ public class SpamAnlern {
     public double pourcentageForOneWordInSpamAnlern(String word) throws IOException {
         int allFile = 0;
         allFile = this.numberOfFileSpamAnlern(); //number of file
-        double numberForWord = 0;
+        double numberForWord = 0.0;
         numberForWord = this.getTableFinal().get(word); //value of map from spamAnlern
         double result;
         result = numberForWord / allFile;
