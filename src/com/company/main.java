@@ -6,7 +6,7 @@ import java.util.*;
 public class main {
 
     public static void main(String[] args) throws IOException {
-//Answer for ham-test => line 162 AND Answer for spam-test => line 204
+//Answer for ham-test AND Answer for spam-test => Answer at the end of the main
         //Set up
         HamAnlern h = new HamAnlern();
         System.out.println("Constructor Ham");
@@ -159,8 +159,7 @@ public class main {
             totalOfHamTest = listeOfHamTest.length;
         double percentageOfHamTestIsSpam = howMuchHTIsSpam / totalOfHamTest;
         percentageOfHamTestIsSpam = percentageOfHamTestIsSpam *100;
-        System.out.println("percentage of ham test who is maybe a spam : "+howMuchHTIsSpam+" / "+totalOfHamTest+" = " + percentageOfHamTestIsSpam+" %. We choose Anzahl alpha=0.001; Schwellenwert: P(S)>=56% = Spam.");
-//calcul:118/1510*100=7.81456953642384 %
+        //Answer at the end
 //-----END Test with all ham test--------------------
 
 
@@ -201,10 +200,15 @@ public class main {
         totalOfSpamTest = listeOfSpamTest.length;
         double percentageOfSpamTestIsSpam = howMuchSTIsSpam / totalOfSpamTest;
         percentageOfSpamTestIsSpam = percentageOfSpamTestIsSpam *100;
-        System.out.println("percentage of spam test who is maybe a spam : "+howMuchSTIsSpam+" / "+totalOfSpamTest+" = " + percentageOfSpamTestIsSpam+" %. We choose Anzahl alpha=0.001; Schwellenwert: P(S)>=56% = Spam.");
-//calcul:208/222*100=93.69369369369369 %
+        //Answer at the end
 //-----END Test with all spam test--------------------
 
+        System.out.println("\n"+"\n");
+        System.out.println("percentage of ham test who is maybe a spam : "+howMuchHTIsSpam+" / "+totalOfHamTest+" = " + percentageOfHamTestIsSpam+" %. We choose Anzahl alpha=0.001; Schwellenwert: P(S)>=56% = Spam.");
+//calcul:118/1510*100=7.81456953642384 %
+
+        System.out.println("percentage of spam test who is maybe a spam : "+howMuchSTIsSpam+" / "+totalOfSpamTest+" = " + percentageOfSpamTestIsSpam+" %. We choose Anzahl alpha=0.001; Schwellenwert: P(S)>=56% = Spam.");
+//calcul:208/222*100=93.69369369369369 %
 
     }
 }
