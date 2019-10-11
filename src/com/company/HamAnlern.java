@@ -99,7 +99,7 @@ public class HamAnlern {
         Set<Map.Entry<String, Double>> setMap = s.getTableFinal().entrySet();
         for (Map.Entry<String, Double> e : setMap) {
             if (!this.containWord(e.getKey())) {
-                tableFinal.put(e.getKey(), 0.01);
+                tableFinal.put(e.getKey(), 0.0001);//Anzahl alpha
             }
         }
         this.write();
