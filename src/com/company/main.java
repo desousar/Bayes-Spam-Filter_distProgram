@@ -90,7 +90,7 @@ public class main {
             }
             double resultat = 0.0;
             resultat = (numerateurS / (denominateurS + denominateurH) * 100);
-            System.out.println("spam Kallibrate the resultat with the Bayes formul: probability that this mail "+isk+" is a spam : " + resultat + " %");
+            System.out.println("spam Kallibrate the resultat with the Bayes formul: probability that this mail "+isk+" is a spam : " + resultat + " %");//like indicator of loading
             isk++;
             listEnCoursSpamKallibrate.add((int) resultat);
         }
@@ -143,7 +143,7 @@ public class main {
             }
             double resultat = 0.0;
             resultat = (numerateurS / (denominateurS + denominateurH) * 100);
-            System.out.println("ham Test: the resultat with the Bayes formul: probability that this mail "+iht+" is a spam : " + resultat + " %");
+            System.out.println("ham Test: the resultat with the Bayes formul: probability that this mail "+iht+" is a spam : " + resultat + " %");//like indicator of loading
             iht++;
             listEnCoursHamTest.add(resultat);
         }
