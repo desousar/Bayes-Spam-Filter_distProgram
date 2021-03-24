@@ -2,4 +2,4 @@
 
 Documentation:
 
-[BayesSpamFilter.pdf](./Programmieraufgabe1/Programmieraufgabe-BayesSpamFilter.pdf]
+[BayesSpamFilter.pdf](https://github.com/desousar/distProgAuf1/blob/master/Programmieraufgabe1/Programmieraufgabe-BayesSpamFilter.pdf]
