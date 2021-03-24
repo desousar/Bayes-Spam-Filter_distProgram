@@ -1,5 +1,4 @@
 # BayesSpamFilter
 
-Documentation:
-
-[BayesSpamFilter.pdf](./Programmieraufgabe1/Programmieraufgabe-BayesSpamFilter.pdf]
+This Java program implements a Bayes-Spam-Filter.
+For more information: [BayesSpamFilter.pdf](./Programmieraufgabe/BayesSpamFilter.pdf]
